@@ -37,7 +37,7 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => {
     res.render('home.hbs', {
         pageTitle: "Home",
-        welcomeMessage: "Welcome to this amazing website that i am visiting",
+        welcomeMessage: "Welcome to this amazing website",
     });
 });
 
